@@ -6,7 +6,7 @@ exports.getPosts = (req, res, next) => {
 
 exports.createPost = (req, res, next) => {
   const title = req.body.title;
-  const content = req.body.conten;
+  const content = req.body.content;
   // asdlkajsd
   res.status(201).json({
     message: "Post created successfull",
